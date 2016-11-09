@@ -1,0 +1,37 @@
+# Site settings
+name: Toutouping
+email: toutouping@163.com
+author: Toutouping
+url: https://toutouping.github.io/
+resume_site: https://github.com/toutouping
+github: https://github.com/toutouping
+baseurl: ""
+description: 3
+meta_description: 2
+motto:  Learn and live.
+banner: 不积跬步，无以致千里
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: toutouping
+highlighter: rouge
+
+# Build settings
+markdown: kramdown
+
+FB:
+  comments :
+    provider : toutouping1
+    duoshuo:
+        short_name : toutouping2
+    disqus :
+        short_name : toutouping3
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
