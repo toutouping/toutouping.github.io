@@ -1,0 +1,198 @@
+---
+layout: post
+title:  "css实现元素垂直居中 & 水平居中"
+date:   2016-11-09 13:31:01 +0800
+categories: jekyll
+tag: jekyll
+---
+
+* content
+{:toc}
+
+以下算是总结了一些大神们的笔记,以便日后查阅.
+### 1. vertical-align 实现元素垂直居中
+&nbsp;&nbsp;&nbsp;&nbsp;[**vertical-align**](http://css.doyoe.com/properties/text/vertical-align.htm): 适用于 inline level, inline-block level 及 table-cells 元素上.
+
+```
+<div id="demo">
+    <p>摘自(http://demo.doyoe.com/css/alignment/)</p>
+    <!--[if lt IE 8]><span></span><![endif]-->
+</div>
+```
+```
+#demo{
+    height:100px;
+    text-align:center;
+    font-size:0;
+}
+#demo:after,#demo span{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    width:0;
+    height:100%;
+    vertical-align:middle;
+}
+#demo:after{
+    content:'';
+}
+#demo p{
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:middle;
+    font-size:16px;
+}
+```
+### 2. absolute布局上下文下的水平垂直居中 [摘自](http://div.io/topic/1155)
+* 50% + -50%  [demo](http://codepen.io/toutouping/pen/KNdJMr)
+```
+<div class="wrap">
+  <div class="ele margin">水平垂直居中水平垂直<br>居中水平垂直居中水平<br>垂直居中水平垂直居<br>中水平垂直居中</div>
+</div>
+
+<div class="wrap">
+  <div class="ele translate">水平垂直居中水平垂直<br>居中水平垂直居中水平<br>垂直居中水平垂直居<br>中水平垂直居中</div>
+</div>
+
+<div class="wrap">
+  <div class="ele relative">
+    <div class="ele-inner">水平垂直居中水平垂直<br>居中水平垂直居中水平<br>垂直居中水平垂直居<br>中水平垂直居中</div>
+  </div>
+</div>
+```
+```
+.wrap{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  border:1px solid;
+  background-color: #ccc;
+  .ele{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #333;
+    &.margin{
+      width: 160px;
+      height: 100px;
+      margin-left: -80px;
+      margin-top: -50px;
+    }
+    &.translate{
+      -webkit-transform:translate3d(-50%, -50%, 0);
+      transform:translate3d(-50%, -50%, 0);
+    }
+    .ele-inner{
+      position: relative;
+      left: -50%;
+      top: -50%;
+      width: 100%;
+      height: 100%;
+      background-color: #333;
+    }
+    &.relative{
+      width: 150px;
+      height: 100px;
+      background-color: transparent;
+    }
+  }
+}
+```
+* text-align:center + absolute   [demo](http://codepen.io/toutouping/pen/zovyVV)
+```
+<div class="wrap">
+  <div class="ele"></div>
+</div>
+```
+```
+.wrap{
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-color: #ccc;
+  font-size: 0;
+}
+.ele{
+  position: absolute;
+  margin-left: -(100px / 2);
+  margin-top: (400px - 100px) / 2;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #333;
+}
+```
+* absolute + margin : auto [demo](http://codepen.io/toutouping/pen/ENVrNa)
+```
+<div class="wrap">
+  <div class="ele"></div>
+</div>
+```
+```
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.wrap{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  .ele{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+  }
+}
+```
+### 3.适用于图片居中的网易nec的一个方法 [demo](http://codepen.io/toutouping/pen/eBpxGO)
+```
+<div class="wrap">
+  <p>
+    <img src="http://nec.netease.com/img/s/1.jpg" alt="" />
+    <img src="http://nec.netease.com/img/s/1.jpg" alt="" />
+  </p>  
+</div>
+```
+```
+html,body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.wrap{
+  position:relative;
+  width: 100%;
+  height: 100%;
+  p{
+    position:absolute;
+    left:50%;
+    top:50%;
+  }
+  img{
+    &:nth-child(1){
+      position:static;
+      visibility:hidden;
+    }
+    &:nth-child(2){
+      position:absolute;
+      right:50%;
+      bottom:50%;
+    }
+  }
+}
+```
+*这种方法主要是利用了一个图片进行占位，以让父容器获得高宽，从而让进行-50%偏移的图片能有一个参照容器作百分比计算。优点是可以不知道图片的大小，随便放张尺寸不超过父容器的图片上去都能做到居中。另外，兼容性好，如果是不使用nth-child选择器的花，IE6都是能顺利兼容的*
+
+### 4.float布局上下文下的水平垂直居中
+* float + -50% [demo](http://codepen.io/toutouping/pen/ZBbwXg)
+* margin-bottom : -50%[demo](http://codepen.io/toutouping/pen/GNpzOy)

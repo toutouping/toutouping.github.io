@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: toutouping
+github_username: toutouping1
 highlighter: rouge
 
 # Build settings
@@ -25,11 +25,11 @@ markdown: kramdown
 
 FB:
   comments :
-    provider : toutouping1
+    provider : duoshuo
     duoshuo:
-        short_name : toutouping2
+        short_name : luoyan35714
     disqus :
-        short_name : toutouping3
+        short_name : freudkang
     # facebook :
     #   appid : 123
     #   num_posts: 5
