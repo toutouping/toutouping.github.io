@@ -10,7 +10,9 @@ tag: css
 {:toc}
 
 以下算是总结了一些大神们的笔记,以便日后查阅.
+
 ### 1. vertical-align垂直居中
+
 &nbsp;&nbsp;&nbsp;&nbsp;[**vertical-align**](http://css.doyoe.com/properties/text/vertical-align.htm): 适用于 inline level, inline-block level 及 table-cells 元素上.
 
 ``` 
@@ -44,7 +46,9 @@ tag: css
     font-size:16px;
 }
 ```
+
 ### 2. absolute水平垂直居中
+
 [详细](http://div.io/topic/1155)
 * 50% + -50%
 [demo](http://codepen.io/toutouping/pen/KNdJMr)
@@ -160,7 +164,9 @@ html,body{
   }
 }
 ```
+
 ### 3.适用于图片居中
+
 [demo](http://codepen.io/toutouping/pen/eBpxGO)
 
 ``` 
