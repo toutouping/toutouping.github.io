@@ -8,6 +8,6 @@ permalink: /reference/
 {:toc}
 
 
-走向架构师之路
+阮一峰的网络日志
 =====================
-[走向架构师之路](http://blog.csdn.net/cutesource/article/details/4901506)
+[阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
