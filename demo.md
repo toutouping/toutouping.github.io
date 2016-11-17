@@ -25,3 +25,9 @@ permalink: /demo/
 
 #### 扑克牌效果
 + 链    接: [poker-card-with-css3](https://github.com/toutouping/poker-card-with-css3)
+
+#### handlebarsJS seaJS 实现侧边栏
++ 链    接: [side-bar](https://github.com/toutouping/side-bar)
+
+#### 自定义juqery页签插件
++ 链    接: [tab-component-demo](https://github.com/toutouping/tab-component-demo)
