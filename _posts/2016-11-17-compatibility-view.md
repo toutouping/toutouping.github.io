@@ -14,6 +14,7 @@ tag: html/css
 ### 1. IE6浏览器的怪异解析现象
 产生条件：IE6浏览器，当我们没有书写这个文档声明的时候，会触发IE6浏览器的怪异解析现象；
 解决办法：书写文档声明。
+
 ```html
 <!DOCTYPE html>
 <html lang="zh">
@@ -29,11 +30,12 @@ tag: html/css
 </body>
 </html>
 ```
+
 > 关于文档模式的更多了解 [doctype](http://frontenddev.org/link/do-you-know-what-a-doctype-what-document-model-is.html#heading-2-7) [HTML文档类型DTD与浏览器怪异模式](http://blog.csdn.net/freshlover/article/details/11616563)
 
 ### 2. 不同浏览器当中，很多的标签的默认样式不同
 产生条件：采用不同的内核；
-解决办法：利用CSS [global.css](http://codepen.io/toutouping/pen/QGGLNK)文件进行样式的清除，然后再根据需要进行设置。
+解决办法：利用CSS重叠样式 [global](http://codepen.io/toutouping/pen/QGGLNK)文件进行样式的清除，然后再根据需要进行设置。
 
 ### 3. IE6横向双倍外边距
 产生条件：
