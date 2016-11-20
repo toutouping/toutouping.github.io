@@ -16,6 +16,7 @@ permalink: /demo/
 #### 企业网实践
 
 > 查看[焦点图库使用](http://demo.jb51.net/js/myfocus/demo.html)的使用
+
 + 链    接: [enterprise-demo](/demo/enterprise-demo/index.html)
 + 效果展示: ![img](/demo/enterprise-demo/images/demo.png)
 
