@@ -13,6 +13,15 @@ permalink: /demo/
 + 链    接: [fullPage-demo](/demo/fullpageJs-demo/index.html)
 + 效果展示: ![img](/demo/fullpageJs-demo/img/fullPage.png)
 
+#### 企业网实践([焦点图库使用](http://demo.jb51.net/js/myfocus/demo.html))
++ 链    接: [enterprise-demo](/demo/enterprise-demo/index.html)
++ 效果展示: ![img](/demo/enterprise-demo/images/demo.png)
+
+#### 电商网实践
++ 链    接: [onlineretailers-demo](/demo/onlineretailers-demo/index.html)
++ 效果展示: ![img](/demo/onlineretailers-demo/images/demo.png)
+
+
 #### 自定义弹出框
 + 链    接: [define-dialog-demo](https://github.com/toutouping/define-dialog-demo)
 
