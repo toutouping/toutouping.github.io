@@ -25,6 +25,14 @@ permalink: /demo/
 + 效果展示: ![img](/demo/onlineretailers-demo/images/demo.png)
 
 
+#### 慕课网实践
+
+> 查看[SuperSlide](http://www.superslide2.com/otherDemo/0.1/webSite.html)的使用:
+> 特效包括：导航、焦点图、tab切换、图片滚动、文字滚动等
+
++ 链    接: [imooc-demo](/demo/imooc-demo/index.html)
++ 效果展示: ![img](/demo/imooc-demo/img/demo.png)
+
 #### 自定义弹出框
 + 链    接: [define-dialog-demo](https://github.com/toutouping/define-dialog-demo)
 
