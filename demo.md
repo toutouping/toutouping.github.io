@@ -13,6 +13,10 @@ permalink: /demo/
 + 链    接: [fullPage-demo](/demo/fullpageJs-demo/index.html)
 + 效果展示: ![img](/demo/fullpageJs-demo/img/fullPage.png)
 
+#### 图片轮播
++ 链    接: [carousel-demo](/demo/carousel-demo/index.html)
++ 效果展示: ![img](/demo/carousel-demo/img/fullPage.png)
+
 #### 自定义弹出框
 + 链    接: [define-dialog-demo](https://github.com/toutouping/define-dialog-demo)
 
