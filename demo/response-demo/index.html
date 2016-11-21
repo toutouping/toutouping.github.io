@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <title>无响应式的静态页面</title>
+    <link href="index.css" rel="stylesheet"/>
+    <link id="lnkLarge" href="index-large.css" rel="stylesheet">
+    <!--支持移动设备下面的显示-->
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+</head>
+<body>
+    <!--头部内容，控制与外部整体的布局关系-->
+    <header id="header">
+        <!--用户控制内部的背景颜色、或图片-->
+        <div class="header-inner">
+            <!--页面内容-->
+            <div class="container">
+                <!--菜单按钮-->
+                <div class="menu-button fr">
+                    <button class="btn">
+                        <span class="i-con"></span>
+                        <span class="i-con"></span>
+                        <span class="i-con"></span>
+                    </button>
+                </div>
+                <!--菜单栏-->
+                <div class="menu-bar">
+                    <!--菜单项-->
+                    <ul class="menu-list clearf">
+                            <li class="active"><a href="#">首页</a></li>
+                            <li><a href="#">入门</a></li>
+                            <li><a href="#">框架</a></li>
+                            <li><a href="#">基本CSS样式</a></li>
+                            <li><a href="#">组件</a></li>
+                            <li><a href="#">JavaScript插件</a></li>
+                            <li><a href="#">定制</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
+   <!--为了防止js文件的阻塞，放在body结尾处-->
+    <script src="jquery-1.11.3.js"></script>
+     <script src="index.js"></script>
+</body>
+</html>

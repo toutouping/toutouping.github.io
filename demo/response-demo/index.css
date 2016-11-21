@@ -1,0 +1,77 @@
+/**
+  author:曹领雄
+  date:2016-11-11
+  index.css 样式默认是窄屏显示
+*/
+/*公共样式*/
+*{
+    padding: 0;  /*填充为0*/
+    margin: 0;  /*外边距为0*/
+}
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei";
+}
+li{
+    list-style: none;  /*列表项为non*/
+}
+i{
+    font-style: normal;
+}
+ /*清除浮动*/
+.clearf::after{
+    content: "";
+    display: block;
+    clear: both;
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    zoom: 0; /* 兼容低版本的IE浏览器*/
+}
+/*右浮动*/
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+/*头部样式*/
+.header-inner{
+    background-color: #3c3f41;
+    height: 49px;
+}
+.menu-bar{
+    background:#3c3f41 ;
+}
+/*设置超链接样式*/
+.menu-list>li>a{
+    display: block;
+    padding: 15px 20px;
+}
+.menu-list>li.active{
+    background: #111;  /*优化样式 样式十六进制值  #111111 -> #111 */
+}
+.menu-list>li>a:hover{
+    background: #111;
+}
+/*菜单按钮*/
+.btn{
+    padding: 4px 6px;
+    border-radius: 3px;
+    border: 1px solid #3c3f41;
+    outline: none;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.btn .i-con{
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: #111;
+    margin: 4px 0;
+}

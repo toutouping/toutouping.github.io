@@ -1,0 +1,7 @@
+/*宽屏样式*/
+.menu-list>li{
+    float: left;
+}
+.btn{
+display: none;
+}
