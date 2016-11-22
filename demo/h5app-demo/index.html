@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>计算器</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style type="text/css">
+    html,
+    body {
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    #main {
+    	display: table;
+        height: 100%;
+        width: 100%;
+    }
+    
+    div {
+        box-sizing: border-box;
+        font: 26px/30px '微软雅黑', 'sans-serif';
+    }
+    
+    #run {
+        height: 20%;
+    }
+    .row{
+    	display: table-row;
+    }
+    .c3 {
+        width: 25%;
+        height: 15%;
+    	display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        border: 1px solid gold;
+    }
+    .empty-right{
+    	border-right: none;
+    }
+    .empty-left{
+    	border-left: none;
+    }
+    .bt {
+        background-color: orange;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="row">
+            <div id="run"></div>
+        </div>
+        <div class="row">
+            <div class="c3">C</div>
+            <div class="c3">+/-</div>
+            <div class="c3">back</div>
+            <div class="c3 bt">/</div>
+        </div>
+        <div class="row">
+            <div class="c3">7</div>
+            <div class="c3">8</div>
+            <div class="c3">9</div>
+            <div class="c3 bt">*</div>
+        </div>
+        <div class="row">
+            <div class="c3">1</div>
+            <div class="c3">2</div>
+            <div class="c3">3</div>
+            <div class="c3 bt">+</div>
+        </div>
+        <div class="row">
+            <div class="c3">4</div>
+            <div class="c3">5</div>
+            <div class="c3">6</div>
+            <div class="c3 bt">-</div>
+        </div>
+        <div class="row">
+            <div class="c3 empty-right">0</div>
+            <div class="c3 empty-left"></div>
+            <div class="c3">.</div>
+            <div class="c3 bt">=</div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+var main = document.getElementById("main");
+var run = document.getElementById("run");
+main.onclick = function(ev) {
+    var el = ev.target;
+    if (el.className.indexOf('c') != 0) {
+        return;
+    }
+    if (el.innerHTML == 'C') {
+        run.innerHTML = '';
+    } else if (el.innerHTML == 'back') {
+        run.innerHTML = run.innerHTML.substr(0, run.innerHtml.lenght);
+    } else if (el.innerHTML == '=') {
+        run.innerHTML = eval(run.innerHTML);
+    } else {
+        run.innerHTML += el.innerHTML;
+    }
+}
+</script>
+
+</html>

@@ -9,6 +9,9 @@ permalink: /demo/
 
 -----------------------------------------------------------------
 
+#### 一款用于多人聊天的谷歌插件
++ 链    接: [chat-online-chrome-extension](https://github.com/toutouping/chat-online-chrome-extension)
+
 #### 全屏滚动
 + 链    接: [fullPage-demo](/demo/fullpageJs-demo/index.html)
 + 效果展示: ![img](/demo/fullpageJs-demo/img/fullPage.png)
@@ -24,8 +27,9 @@ permalink: /demo/
 + 链    接: [facybox-case](https://github.com/toutouping/facybox-case)
 
 
-#### 一款用于多人聊天的谷歌插件
-+ 链    接: [chat-online-chrome-extension](https://github.com/toutouping/chat-online-chrome-extension)
+#### html5app-demo
++ 链    接: [h5app-demo](/demo/h5app-demo/index.html)
++ 效果展示: ![img](/demo/h5app-demo/img/demo.png)
 
 #### 扑克牌效果
 + 链    接: [poker-card-with-css3](https://github.com/toutouping/poker-card-with-css3)
