@@ -26,6 +26,9 @@ permalink: /demo/
 #### 丰富的弹出插件使用
 + 链    接: [facybox-case](https://github.com/toutouping/facybox-case)
 
+#### 图片放大功能
++ 链    接: [magnification-demo](/demo/magnification-demo/index.html)
++ 效果展示: ![img](/demo/magnification-demo/img/demo.png)
 
 #### html5app-demo
 + 链    接: [h5app-demo](/demo/h5app-demo/index.html)
