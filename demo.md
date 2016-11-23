@@ -34,6 +34,14 @@ permalink: /demo/
 + 链    接: [h5app-demo](/demo/h5app-demo/index.html)
 + 效果展示: ![img](/demo/h5app-demo/img/demo.png)
 
+#### 多种导航栏
++ 垂直菜单: [nav-demo](/demo/nav-demo/index1.html)
++ 水平菜单: [nav-demo](/demo/nav-demo/index2.html)
++ 水平菜单hover: [nav-demo](/demo/nav-demo/index3.html)
++ 圆角水平菜单: [nav-demo](/demo/nav-demo/index4.html)
++ JS动画水平菜单: [nav-demo](/demo/nav-demo/index5.html)
++ JQ[kwicks](http://demo.16css.com/menu/1202/)动画水平菜单: [nav-demo](/demo/nav-demo/index6.html)
+
 #### 扑克牌效果
 + 链    接: [poker-card-with-css3](https://github.com/toutouping/poker-card-with-css3)
 
