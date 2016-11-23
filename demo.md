@@ -28,11 +28,9 @@ permalink: /demo/
 
 #### 6.图片放大功能
 + 链    接: [magnification-demo](/demo/magnification-demo/index.html)
-+ 效果展示: ![img](/demo/magnification-demo/img/demo.png)
 
 #### 7.html5app-demo
 + 链    接: [h5app-demo](/demo/h5app-demo/index.html)
-+ 效果展示: ![img](/demo/h5app-demo/img/demo.png)
 
 #### 8.多种导航栏
 + [垂直菜单](/demo/nav-demo/index1.html)
@@ -57,11 +55,9 @@ permalink: /demo/
 > 查看[焦点图库使用](http://demo.jb51.net/js/myfocus/demo.html)的使用
 
 + 链    接: [enterprise-demo](/demo/enterprise-demo/index.html)
-+ 效果展示: ![img](/demo/enterprise-demo/images/demo.png)
 
 #### 13.电商网实践
 + 链    接: [onlineretailers-demo](/demo/onlineretailers-demo/index.html)
-+ 效果展示: ![img](/demo/onlineretailers-demo/images/demo.png)
 
 
 #### 14.慕课网实践
@@ -70,4 +66,3 @@ permalink: /demo/
 > 特效包括：导航、焦点图、tab切换、图片滚动、文字滚动等
 
 + 链    接: [imooc-demo](/demo/imooc-demo/index.html)
-+ 效果展示: ![img](/demo/imooc-demo/img/demo.png)
