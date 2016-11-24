@@ -1099,6 +1099,7 @@ i:hover {
     border-radius: 1px;
     background-color: #93999f;
 }
+
 .moco-course-box:hover .moco-course-intro {
     position: absolute;
     padding: 0 20px;
@@ -1107,6 +1108,7 @@ i:hover {
     height: 144px;
     width: 100%;
 }
+
 .moco-course-wrap .moco-course-box .moco-course-intro p {
     color: #93999f;
     font-size: 12px;
@@ -1230,3 +1232,67 @@ i:hover {
     background-position: 0 -363px;
 }
 
+.elevator {
+    position: fixed;
+    padding: 0 15px;
+    top: 30%;
+    right: 0;
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: -2px 2px 5px 3px rgba(7, 17, 27, 0.1);
+}
+
+.elevator a {
+    display: block;
+    width: 26px;
+    padding: 12px 0;
+    font-size: 12px;
+    line-height: 20px;
+    color: #787d82;
+    text-align: center;
+    border-bottom: 1px solid #edf1f2;
+    position: relative;
+}
+
+.elevator a i {
+    font-size: 24px;
+    color: #b5b9bc;
+}
+
+.sz-shopping-cart:before {
+    content: "\e915";
+}
+
+.elevator a .elevator-num {
+    background-color: #f01414;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    top: 3px;
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    right: -9px;
+}
+
+.sz-receipt:before {
+    content: "\e914";
+}
+
+.sz-feedback:before {
+    content: "\e917";
+}
+
+.sz-appdownload:before {
+    content: "\e911";
+}
+
+.sz-weixigzh:before {
+    content: "\e919";
+}
+
+.sz-arrow-up:before {
+    content: "\e91a";
+}
