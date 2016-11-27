@@ -59,6 +59,9 @@ permalink: /demo/
 #### 13.电商网实践
 + 链    接: [onlineretailers-demo](/demo/onlineretailers-demo/index.html)
 
+#### 13.联想首頁
++ 链    接: [www.lenovo.com.cn](/demo/www.lenovo.com.cn/index.html)
+
 
 #### 14.慕课网实践
 

@@ -1,0 +1,116 @@
+html,
+body,
+div,
+p,
+ul,
+li,
+dl,
+dt,
+dd,
+ol,
+h1,
+h2,
+h3,
+a,
+span,
+i,
+header,
+footer {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-appearance: none;
+}
+
+html,
+body {
+    background: #fff;
+    font-family: "Microsoft Yahei", Helvetica, STHeiTi, sans-serif;
+    font-size: 14px;
+    color: #333333;
+    -webkit-text-size-adjust: none
+}
+img{
+    border: none;
+    border:0;
+}
+input,
+button {
+    outline: none;
+	font-family: "Microsoft Yahei"
+}
+
+::-webkit-input-placeholder {
+    color: #ccc
+}
+
+i {
+    font-style: normal;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    font-size: 44px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+a.active {
+    text-decoration: none;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+/* tools */
+
+.clearfix:after {
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    line-height: 0;
+    content: '\20';
+}
+
+.clearfix {
+    *display: table;
+    *zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+html, body {
+    height: 100%;
+    min-width: 1200px;
+}
