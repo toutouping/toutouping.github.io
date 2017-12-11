@@ -13,7 +13,7 @@ permalink: /demo/
 + 链    接: [chat-online-chrome-extension](https://github.com/toutouping/chat-online-chrome-extension)
 
 #### 2.全屏滚动
-+ 链    接: [fullPage-demo](/demo/fullpageJs-demo/index.html)
++ 链    接: [fullPage-demo1](/demo/fullpageJs-demo/demo.html) [fullPage-demo2](/demo/fullpageJs-demo/demo1.html)
 + 效果展示: ![img](/demo/fullpageJs-demo/img/fullPage.png)
 
 #### 3.图片轮播
