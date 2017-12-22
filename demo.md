@@ -62,10 +62,13 @@ permalink: /demo/
 #### 13.联想首頁
 + 链    接: [www.lenovo.com.cn](/demo/www.lenovo.com.cn/index.html)
 
+#### 14.美团外卖案例
++ 链    接: [vue-takeout](/demo/vue-takeout/index.html)
 
-#### 14.慕课网实践
+#### 15.慕课网实践
 
 > 查看[SuperSlide](http://www.superslide2.com/otherDemo/0.1/webSite.html)的使用:
 > 特效包括：导航、焦点图、tab切换、图片滚动、文字滚动等
 
 + 链    接: [imooc-demo](/demo/imooc-demo/index.html)
+
