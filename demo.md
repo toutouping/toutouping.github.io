@@ -62,8 +62,8 @@ permalink: /demo/
 #### 13.联想首頁
 + 链    接: [www.lenovo.com.cn](/demo/www.lenovo.com.cn/index.html)
 
-#### 14.美团外卖案例
-+ 链    接: [vue-takeout](/demo/vue-takeout/index.html)
+#### 14.vue demo
++ 链    接: [vue-demo](/demo/vue-demo/index.html)
 
 #### 15.慕课网实践
 
